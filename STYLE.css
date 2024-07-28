@@ -1,62 +1,38 @@
+/* General Styles */
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    background: linear-gradient(to bottom right, #000000, #8A2BE2);
+    color: #FFFFFF;
 }
 
+/* Header Styles */
 header {
-    text-align: center;
+    background-color: rgba(31, 31, 31, 0.9);
     padding: 20px;
-    background-color: #0073e6;
-    color: white;
+    text-align: center;
 }
 
-.profile-picture img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-
-header h1 {
-    margin: 10px 0 5px 0;
-}
-
-header p {
-    margin: 0;
-}
-
+/* Main Content Styles */
 main {
     padding: 20px;
 }
 
-.links {
-    text-align: center;
-}
-
-.links ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.links li {
-    margin: 10px 0;
-}
-
-.links a {
-    text-decoration: none;
-    color: #0073e6;
-    font-weight: bold;
-}
-
-.bio {
-    margin-top: 30px;
-}
-
+/* Footer Styles */
 footer {
+    background-color: rgba(31, 31, 31, 0.9);
     text-align: center;
     padding: 10px;
-    background-color: #333;
-    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Links Styles */
+a {
+    color: #BB86FC;
+}
+
+a:hover {
+    color: #3700B3;
 }
