@@ -13,9 +13,39 @@ header {
     text-align: center;
 }
 
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
 /* Main Content Styles */
 main {
     padding: 20px;
+}
+
+/* Links Styles */
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    color: #BB86FC;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #3700B3;
+}
+
+/* Bio Section Styles */
+.bio {
+    margin-top: 20px;
 }
 
 /* Footer Styles */
@@ -26,13 +56,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-/* Links Styles */
-a {
-    color: #BB86FC;
-}
-
-a:hover {
-    color: #3700B3;
 }
